@@ -1,13 +1,12 @@
-let i = 0;
+import { BallClock } from './ball-clock';
 
-const fuckOff = (i: number) => {
-  if (i >= 1000) {
-    return;
-  }
+const clock = new BallClock({
+  tray: 59,
+  minutes: 59,
+  hours: 1,
+});
 
-  console.log(`${i}: No I dont think I will`);
-  i++;
-  fuckOff(i);
-};
-
-fuckOff(i);
+clock.output();
+clock.addBall();
+console.log('=============');
+clock.output();

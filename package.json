@@ -29,6 +29,7 @@
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "Apache-2.0",
   "dependencies": {
+    "@nickradford/ts-data-structures": "^2.2.0",
     "tslib": "~2.0.3"
   },
   "volta": {
